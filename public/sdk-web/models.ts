@@ -4,7 +4,7 @@ export namespace Models {
      */
     export type DocumentList<Document extends Models.Document> = {
         /**
-         * Total number of documents documents that matched your query.
+         * Total number of documents that matched your query.
          */
         total: number;
         /**
@@ -497,7 +497,7 @@ export namespace Models {
          */
         continent: string;
         /**
-         * True if country is part of the Europian Union.
+         * True if country is part of the European Union.
          */
         eu: boolean;
         /**
@@ -645,7 +645,7 @@ export namespace Models {
          */
         $createdAt: string;
         /**
-         * Execution upate date in ISO 8601 format.
+         * Execution update date in ISO 8601 format.
          */
         $updatedAt: string;
         /**
